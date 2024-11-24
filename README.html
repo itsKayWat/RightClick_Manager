@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RightClick Manager - README</title>
+    <style>
+        body {
+            background-color: #1e1e1e;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        a {
+            color: #4ea8ff;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            color: #ffffff;
+        }
+        code {
+            background-color: #333333;
+            color: #dcdcdc;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+        pre {
+            background-color: #2d2d2d;
+            padding: 10px;
+            border-radius: 4px;
+            overflow-x: auto;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>RightClick Manager</h1>
+    <img src="screenshot.png" alt="Dark Themed Screenshot">
+    
+    <h2>Table of Contents</h2>
+    <ul>
+        <li><a href="#introduction">Introduction</a></li>
+        <li><a href="#purpose">Purpose</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#installation">Installation</a></li>
+        <li><a href="#usage">Usage</a></li>
+        <li><a href="#requirements">Requirements</a></li>
+        <li><a href="#example-use-case">Example Use Case</a></li>
+        <li><a href="#contributing">Contributing</a></li>
+        <li><a href="#license">License</a></li>
+    </ul>
+    
+    <h2 id="introduction">Introduction</h2>
+    <p>RightClick Manager is a Python-based graphical user interface (GUI) tool designed to help Windows users manage their context menu items effortlessly. Whether you want to add new functionalities or clean up unused commands, RightClick Manager provides an intuitive interface to customize your right-click experience.</p>
+    
+    <h2 id="purpose">Purpose</h2>
+    <p>The tool was created to simplify the process of managing Windows context menu items. Manually editing the Windows Registry can be daunting and risky for many users. RightClick Manager offers a safe and user-friendly alternative to customize context menus without delving into complex system settings.</p>
+    
+    <h2 id="features">Features</h2>
+    <ul>
+        <li><strong>Add Custom Commands:</strong> Easily add new context menu items with custom commands.</li>
+        <li><strong>Remove Existing Items:</strong> Remove unwanted or unused context menu entries.</li>
+        <li><strong>Manage Categories:</strong> Organize commands into categories for better management.</li>
+        <li><strong>Dark Theme:</strong> Enjoy a sleek dark mode interface that reduces eye strain.</li>
+        <li><strong>Script Verification:</strong> Ensures necessary scripts are present before adding commands.</li>
+    </ul>
+    
+    <h2 id="installation">Installation</h2>
+    <h3>1. Clone the Repository:</h3>
+    <pre><code>git clone https://github.com/yourusername/RightClick-Manager.git</code></pre>
+    
+    <h3>2. Navigate to the Directory:</h3>
+    <pre><code>cd RightClick-Manager</code></pre>
+    
+    <h3>3. Install Required Packages:</h3>
+    <pre><code>pip install -r requirements.txt</code></pre>
+    
+    <h2 id="usage">Usage</h2>
+    <h3>1. Run the Application:</h3>
+    <pre><code>python context_menu_manager.py</code></pre>
+    
+    <h3>2. Manage Menu Items:</h3>
+    <p>- Navigate to the "Manage Menu Items" tab to view, remove, or refresh context menu entries.</p>
+    
+    <h3>3. Add New Items:</h3>
+    <p>- Go to the "Add New Item" tab.<br>
+    - Select a category from the dropdown.<br>
+    - Choose a preset command and add it to the context menu.</p>
+    
+    <h2 id="requirements">Requirements</h2>
+    <p><strong>Python 3.x</strong></p>
+    <p><a href="https://www.python.org/downloads/">Download Python</a></p>
+    
+    <p><strong>Required Python Packages:</strong></p>
+    <pre><code>pip install tkinter
+pip install pillow
+pip install winreg</code></pre>
+    
+    <h2 id="example-use-case">Example Use Case</h2>
+    <p><strong>Customer Situation:</strong></p>
+    <p>Sarah frequently works with large directories and needs to copy file paths or open command prompts directly from the context menu. Instead of manually performing these actions, she uses RightClick Manager to add "Copy Path" and "Open Command Here" options. This customization streamlines her workflow, saving time and enhancing productivity.</p>
+    
+    <h2 id="contributing">Contributing</h2>
+    <p>Contributions are welcome! Please fork the repository and submit a pull request for any improvements or bug fixes.</p>
+    
+    <h2 id="license">License</h2>
+    <p>This project is licensed under the <a href="LICENSE">MIT License</a>.</p>
+</body>
+</html>
